@@ -39,6 +39,9 @@ function displayTemperature(response) {
 
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+
+  let iconElement = document.querySelector("#icon");
+  iconElement.innerHTML;
 }
 
 let apiKey = "5c1ec132f6f18d43fc20237ef0b58028";
