@@ -29,11 +29,14 @@ li::first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background-image: url("./images/sea.jpg");
+  background-repeat: no-repeat;
+  background-size: 900px 480px;
+  border-radius: 10px;
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .overview {
   margin-bottom: 10px;
